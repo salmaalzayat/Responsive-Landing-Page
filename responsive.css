@@ -1,0 +1,57 @@
+@media (max-width: 1024px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .social {
+        margin-left: 38%;
+    }
+
+    footer .subscribe {
+        width: auto;
+    }
+}
+
+@media (max-width:851px) {
+    .nav-info a {
+        display: none;
+    }
+
+    .header-content p,
+    .rent-container p {
+        font-size: 1.4rem;
+    }
+
+    .header-input button,
+    .header-input input {
+        font-size: 10px;
+    }
+
+    .statistics-box-container {
+        flex-direction: column;
+    }
+
+    .statistics-box .statistics-item:not(:last-of-type) {
+        border-bottom: 1px solid #d4d4d4;
+        border-right: none;
+    }
+
+    .destinations-cards,
+    .boat-cards {
+        flex-direction: column;
+    }
+
+    .card.position1 {
+        width: 80%;
+    }
+
+    .card.position2 {
+        width: 80%;
+    }
+
+    .card.position3 {
+        width: 80%;
+    }
+
+}
